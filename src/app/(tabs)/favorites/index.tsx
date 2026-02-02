@@ -35,7 +35,6 @@ const milahatra = [...favorites].sort((a,b)=>a.title.toLowerCase().localeCompare
             return;
         }
         
-   
         const searchItem = text.toLowerCase();
 
         const filtered = favorites.filter((track: Track) =>{
@@ -43,9 +42,6 @@ const milahatra = [...favorites].sort((a,b)=>a.title.toLowerCase().localeCompare
             const artist = track.artist?.toLowerCase().includes(searchItem);
             return title || artist;
         });
-
-        
-    
         
     setFilteredTrack(filtered);
     setTimeout(() => setIsLoading(false), 500);
@@ -157,5 +153,6 @@ const styles = StyleSheet.create({
     }
     
 })
+
 
 export default FavoritesScreen;
