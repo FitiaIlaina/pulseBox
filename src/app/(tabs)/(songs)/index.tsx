@@ -22,8 +22,6 @@ const SongScreen = () => {
     const [filteredTrack, setFilteredTrack] = useState<Track[]>(library);
     const [isLoading, setIsLoading] = useState(false);
 
- 
-
     const handleSearch = async(text: string) => {
         setSearchQuery(text);
         setIsLoading(true);
@@ -41,9 +39,6 @@ const SongScreen = () => {
             const artist = track.artist?.toLowerCase().includes(searchItem);
             return title || artist;
         });
-
-        
-
        
     setFilteredTrack(filtered);
     setIsLoading(false)
@@ -116,8 +111,6 @@ const styles = StyleSheet.create({
         padding: 10,
        borderRadius: 10,
         color: colors.text,
-    
-      
     },
     searchContainer:{
         margin:12,
