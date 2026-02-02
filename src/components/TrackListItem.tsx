@@ -4,8 +4,6 @@ import { defaultStyles } from "@/styles";
 import { useFavorites } from "./useFavorite";
 import { TouchableOpacity } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-
-
 import { Image, StyleSheet, Text, TouchableHighlight, View } from "react-native";
 
 export type TrackListItemProps ={
@@ -25,7 +23,6 @@ export const TrackListItem = ({track, onPress}:TrackListItemProps) => {
         toggleFavorite(track);
     };
 
-   
     return(
     <TouchableHighlight onPress={onPress}>
         <View style={styles.trackItemContainer}>
@@ -98,3 +95,4 @@ const styles = StyleSheet.create({
         right: 16,
     }
 })
+
