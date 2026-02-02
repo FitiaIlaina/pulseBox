@@ -1,0 +1,65 @@
+[
+  {
+    "url": "audio/adore.mp3",
+    "title": "Adore You",
+    "artist": "Harry Style",
+    "artwork": "images/unknown_track.png",
+    "rating": 1
+    
+  },
+  {
+    "url": "audio/before.mp3",
+    "title": "Before you go",
+    "artist": "Lewis Capaldi",
+    "artwork": "images/unknown_track.png"
+  },
+  {
+    "url": "audio/coldplay.mp3",
+    "title": "Sky full of stars",
+    "artist": "Coldplay",
+    "artwork": "images/unknown_track.png"
+  },
+  {
+    "url": "audio/fixyou.mp3",
+    "title": "Fix you",
+    "artist": "Coldplay",
+    "artwork": "images/unknown_track.png"
+  },
+  {
+    "url": "audio/say.mp3",
+    "title": "Say you won't let go",
+    "artist": "James Arthur",
+    "artwork": "images/unknown_track.png"
+  },
+  {
+    "url": "audio/time.mp3",
+    "title": "It's time",
+    "artist": "Imagine Dragons",
+    "artwork": "images/unknown_track.png"
+  },
+  {
+    "url": "audio/teky.mp3",
+    "title": "Teky",
+    "artist": "Treezy",
+    "artwork": "images/unknown_track.png"
+  },
+  {
+    "url": "audio/bts.mp3",
+    "title": "Make it right",
+    "artist": "BTS",
+    "artwork": "images/unknown_track.png"
+  },
+  {
+    "url": "audio/doses.mp3",
+    "title": "Doses",
+    "artist": "Confetti",
+    "artwork": "images/unknown_track.png"
+  },
+  {
+    "url": "audio/Infinity.mp3",
+    "title": "Infinity",
+    "artist": "Unknown",
+    "artwork": "images/unknown_track.png"
+  }
+  
+]
