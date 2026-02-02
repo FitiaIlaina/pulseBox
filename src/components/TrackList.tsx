@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 import { FlatList, FlatListProps, View } from "react-native";
 import { TrackListItem } from "./TrackListItem";
 
-
 interface Track {
     title: string;
     artist?: string;
@@ -122,4 +121,5 @@ export const TrackList = ({ data = library, ...flatlistProps }: TrackListProps) 
             {...flatlistProps}
         />
     );
+
 };
