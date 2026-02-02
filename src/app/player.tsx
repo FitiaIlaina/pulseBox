@@ -52,7 +52,6 @@ const PlayerScreen = () => {
 	})
 	).current
 
-
 	const handleFavoritePress = (e: any) => {
         e.stopPropagation();
 		if (currentTrack)
@@ -61,7 +60,6 @@ const PlayerScreen = () => {
 			console.log(currentTrack);
 		}
     };
-
 
 	useEffect (() => {
 		audioManager.setPlaybackStatusUpdate((status) => {
@@ -169,8 +167,6 @@ const PlayerScreen = () => {
 		)
 	}
 
-
-
 	return (
 		<>
 			<Stack.Screen options={{headerShown:false}}/>
@@ -205,9 +201,7 @@ const PlayerScreen = () => {
 					</View>
 				</Animated.View>
 		</>
-		
-
-					
+						
 	)
 }
 
@@ -290,3 +284,4 @@ const styles = StyleSheet.create({
 })
 
 export default PlayerScreen;
+
