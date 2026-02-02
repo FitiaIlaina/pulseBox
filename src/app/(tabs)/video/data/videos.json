@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "videoSource":"./SAÏDOU ABATCHA__LES PROVERBES.mp4",
+    "title": "SAÏDOU ABATCHA - LES PROVERBES",
+    "isLocal": true
+  },
+
+  {
+    "id": 2,
+    "videoSource": "./TeddySwims.mp4",
+    "title": "Are You Even Real (Lyrics) _Teddy Swims Feat Giveon",
+    "isLocal": true
+  }
+]
